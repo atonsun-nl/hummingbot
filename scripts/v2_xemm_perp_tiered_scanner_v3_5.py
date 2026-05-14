@@ -507,8 +507,8 @@ class XEMMPerpTieredScannerConfig(StrategyV2ConfigBase):
     markets: Dict[str, Set[str]] = Field(default_factory=dict)
 
     # Fields to store discovered pairs (avoid class attributes)
-    discovered_pairs: Set[str] = Field(default_factory=set, exclude=True)
-    rest_only_pairs: Set[str] = Field(default_factory=set, exclude=True)
+    discovered_pairs: Set[str] = Field(default_factory=set)
+    rest_only_pairs: Set[str] = Field(default_factory=set)
 
     maker_connector: str = Field(
         default="kucoin_perpetual",
