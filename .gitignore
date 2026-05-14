@@ -1,46 +1,16 @@
-```gitignore
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+```
+# Configuration backup files
+conf/scripts/conf_*.yml.bak
+conf/scripts/conf_*.yaml.bak
 
-# Logs
-*.log
+# Environment specific config
+conf/scripts/*local*
+conf/scripts/*dev*
+conf/scripts/*test*
 
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Dependencies
-venv/
-.venv/
-node_modules/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
+# Backup and temporary files
+*.backup
+*.bak
 *.tmp
+*~
 ```
