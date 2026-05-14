@@ -1,0 +1,210 @@
+2026-05-14 20:32:39,584 - 15095 - hummingbot.core.trading_core - INFO - Markets recorder initialized with database: conf_v2_xemm_perp_tiered_scanner_3_5
+2026-05-14 20:32:39,594 - 15095 - hummingbot.core.trading_core - INFO - Creating the clock with tick size: 1.0
+2026-05-14 20:32:39,594 - 15095 - hummingbot.core.trading_core - INFO - Clock started successfully
+2026-05-14 20:32:39,596 - 15095 - hummingbot.core.trading_core - INFO - 'v2_xemm_perp_tiered_scanner_v3_5' strategy execution started.
+2026-05-14 20:32:39,596 - 15095 - hummingbot.core.trading_core - INFO - Strategy v2_xemm_perp_tiered_scanner_v3_5 started successfully
+2026-05-14 20:32:39,619 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [LAZY SETUP] Position mode set. Leverage will be configured per-pair when activated (only 4 pairs at a time instead of 454).
+2026-05-14 20:32:39,650 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_derivative.BinancePerpetualDerivative - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2026-05-14 20:32:39,652 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_user_stream_data_source.BinancePerpetualUserStreamDataSource - INFO - Starting listen key management task...
+2026-05-14 20:32:39,695 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2026-05-14 20:32:39,762 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000SATS-USDT. 1/15 completed.
+2026-05-14 20:32:39,805 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_user_stream_data_source.BinancePerpetualUserStreamDataSource - INFO - Successfully obtained listen key eGd2fnPOUhY6vHAKOWpvwipiWyLG0KRwSaTqmFyLv2o6xfeykvcqS5QMeUl5tmx6
+2026-05-14 20:32:39,828 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_user_stream_data_source.BinancePerpetualUserStreamDataSource - INFO - Connecting to user stream with listen key eGd2fnPOUhY6vHAKOWpvwipiWyLG0KRwSaTqmFyLv2o6xfeykvcqS5QMeUl5tmx6
+2026-05-14 20:32:39,862 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_api_order_book_data_source.BinancePerpetualAPIOrderBookDataSource - INFO - Subscribed to public order book channels...
+2026-05-14 20:32:40,177 - 15095 - hummingbot.core.api_throttler.async_request_context_base - INFO - API rate limit on /api/v2/mix/account/bill (10 calls per 1s) has almost reached. Limits used is 10 in the last 1 seconds
+2026-05-14 20:32:40,211 - 15095 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2026-05-14 20:32:40,213 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:40,216 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:40,216 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:40,269 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:40,334 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:40,337 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_api_order_book_data_source.BinancePerpetualAPIOrderBookDataSource - INFO - Subscribed to market trade and funding info channels...
+2026-05-14 20:32:40,337 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_user_stream_data_source.BinancePerpetualUserStreamDataSource - INFO - Successfully connected to user stream
+2026-05-14 20:32:40,414 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000SATS-USDT. 1/15 completed.
+2026-05-14 20:32:40,418 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channels...
+2026-05-14 20:32:40,434 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,446 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,447 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,448 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: BOOKS
+2026-05-14 20:32:40,449 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TRADE
+2026-05-14 20:32:40,450 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Subscribed to public channel: TICKER
+2026-05-14 20:32:40,454 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_user_stream_data_source.BitgetPerpetualUserStreamDataSource - INFO - Subscribed to private channels...
+2026-05-14 20:32:40,538 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_user_stream_data_source.BitgetPerpetualUserStreamDataSource - INFO - Subscribed to private channel: ACCOUNT
+2026-05-14 20:32:40,538 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_user_stream_data_source.BitgetPerpetualUserStreamDataSource - INFO - Subscribed to private channel: POSITIONS
+2026-05-14 20:32:40,539 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_user_stream_data_source.BitgetPerpetualUserStreamDataSource - INFO - Subscribed to private channel: ORDERS
+2026-05-14 20:32:40,539 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:40,773 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for A-USDT. 2/15 completed.
+2026-05-14 20:32:40,976 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:41,014 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:41,014 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:41,296 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:41,412 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:41,441 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for A-USDT. 2/15 completed.
+2026-05-14 20:32:41,442 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:41,562 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:41,784 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1MBABYDOGE-USDT. 3/15 completed.
+2026-05-14 20:32:42,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:42,001 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:42,087 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:42,554 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:42,556 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1MBABYDOGE-USDT. 3/15 completed.
+2026-05-14 20:32:42,586 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:42,613 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:42,642 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_derivative.BitgetPerpetualDerivative - INFO - Margin mode set to crossed
+2026-05-14 20:32:42,797 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 0G-USDT. 4/15 completed.
+2026-05-14 20:32:43,001 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:43,001 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:43,571 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 0G-USDT. 4/15 completed.
+2026-05-14 20:32:43,805 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000CAT-USDT. 5/15 completed.
+2026-05-14 20:32:44,005 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:44,005 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:44,586 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000CAT-USDT. 5/15 completed.
+2026-05-14 20:32:44,813 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000000MOG-USDT. 6/15 completed.
+2026-05-14 20:32:45,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:45,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:45,601 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000000MOG-USDT. 6/15 completed.
+2026-05-14 20:32:45,822 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000XEC-USDT. 7/15 completed.
+2026-05-14 20:32:46,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:46,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:46,614 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000XEC-USDT. 7/15 completed.
+2026-05-14 20:32:46,838 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ACE-USDT. 8/15 completed.
+2026-05-14 20:32:47,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:47,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:47,634 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ACE-USDT. 8/15 completed.
+2026-05-14 20:32:47,854 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000BONK-USDT. 9/15 completed.
+2026-05-14 20:32:48,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:48,001 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:48,652 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000BONK-USDT. 9/15 completed.
+2026-05-14 20:32:48,865 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 2Z-USDT. 10/15 completed.
+2026-05-14 20:32:49,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:49,001 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:49,681 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 2Z-USDT. 10/15 completed.
+2026-05-14 20:32:49,900 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for AAVE-USDT. 11/15 completed.
+2026-05-14 20:32:50,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:50,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:50,711 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for AAVE-USDT. 11/15 completed.
+2026-05-14 20:32:50,912 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000RATS-USDT. 12/15 completed.
+2026-05-14 20:32:51,001 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:51,004 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:51,730 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1000RATS-USDT. 12/15 completed.
+2026-05-14 20:32:51,925 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 4-USDT. 13/15 completed.
+2026-05-14 20:32:52,007 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:52,007 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:52,751 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 4-USDT. 13/15 completed.
+2026-05-14 20:32:52,937 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ACH-USDT. 14/15 completed.
+2026-05-14 20:32:53,016 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:53,016 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:53,769 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ACH-USDT. 14/15 completed.
+2026-05-14 20:32:53,947 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1INCH-USDT. 15/15 completed.
+2026-05-14 20:32:54,003 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:54,003 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - binance_perpetual is not ready. Please wait...
+2026-05-14 20:32:54,786 - 15095 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for 1INCH-USDT. 15/15 completed.
+2026-05-14 20:32:55,000 - 15095 - hummingbot.strategy.strategy_v2_base - WARNING - bitget_perpetual is not ready. Please wait...
+2026-05-14 20:32:57,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - Scan: WS=15 REST=0 total=15 pairs, 0 eligible (>= 0.650%). Cost: floor=0.500% + mkr=0.020% + tkr=0.050% + slip=0.050% + fund=0.030% = 0.650%. Top: 4-USDT=0.289%, 1000BONK-USDT=0.086%, 1000000MOG-USDT=0.060%
+2026-05-14 20:32:57,002 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [REST SCAN] Starting background scanner for 439 pairs, interval=30s
+2026-05-14 20:32:59,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:00,014 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:01,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:02,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:03,009 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:04,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:05,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:06,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:07,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:08,002 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:09,013 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:10,005 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:11,005 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:12,010 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:13,016 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:14,014 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:15,024 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:16,010 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:17,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:18,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:19,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:20,074 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:21,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:22,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:23,023 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:24,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:25,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:26,013 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:27,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:28,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:29,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:30,008 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:31,021 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:32,003 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:33,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:34,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:35,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:36,007 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:37,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:38,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:39,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:40,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:41,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:42,114 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:43,005 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:44,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:45,002 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:46,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:47,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:48,006 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:49,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:50,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:51,014 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:52,001 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:53,002 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:54,003 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:55,000 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:56,003 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [PERP SETUP] Position mode & margin OK. Leverage validation deferred (lazy_setup=True, no pairs activated yet).
+2026-05-14 20:33:56,442 - 15095 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2026-05-14 20:33:56,442 - 15095 - hummingbot.strategy.strategy_v2_base - INFO - [STOP] Cancelling idle executors...
+2026-05-14 20:33:56,443 - 15095 - hummingbot.core.trading_core - INFO - Strategy stopped successfully
+2026-05-14 20:33:56,448 - 15095 - hummingbot.connector.derivative.binance_perpetual.binance_perpetual_user_stream_data_source.BinancePerpetualUserStreamDataSource - INFO - User stream interrupted. Cleaning up...
+2026-05-14 20:33:56,448 - 15095 - hummingbot.core.trading_core - INFO - Clock stopped successfully
+2026-05-14 20:33:56,470 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_order_book_data_source.BitgetPerpetualAPIOrderBookDataSource - INFO - Interval PING task cancelled
+2026-05-14 20:33:56,470 - 15095 - hummingbot.connector.derivative.bitget_perpetual.bitget_perpetual_api_user_stream_data_source.BitgetPerpetualUserStreamDataSource - INFO - Interval PING task cancelled
+2026-05-14 20:39:01,692 - 15095 - hummingbot.client.hummingbot_application - ERROR - MQTT is already stopped!
