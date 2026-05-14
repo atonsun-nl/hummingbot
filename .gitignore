@@ -1,16 +1,55 @@
-```
-# Configuration backup files
-conf/scripts/conf_*.yml.bak
-conf/scripts/conf_*.yaml.bak
+```python
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+dist/
+build/
+target/
 
-# Environment specific config
-conf/scripts/*local*
-conf/scripts/*dev*
-conf/scripts/*test*
+# Dependencies
+.venv/
+venv/
+.env
+.env.local
+.env.*
 
-# Backup and temporary files
-*.backup
-*.bak
+# Logs and temp files
+*.log
 *.tmp
-*~
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+```
+
+Wait, I need to reconsider. The only modified file is a Python source file (`scripts/v2_xemm_perp_tiered_scanner_v3_5.py`), which doesn't indicate any build artifacts, dependencies, or temporary files were detected in the change list that would require additional ignores.
+
+Since there are no build artifacts, dependency directories, or other files that need ignoring based on the provided change list, the correct output is empty.
+
+```python
+
 ```
